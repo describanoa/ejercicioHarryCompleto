@@ -10,6 +10,7 @@ import * as $_platform_middleware from "./routes/(platform)/_middleware.ts";
 import * as $_platform_characters from "./routes/(platform)/characters.tsx";
 import * as $_platform_favorites from "./routes/(platform)/favorites.tsx";
 import * as $_platform_house_house_ from "./routes/(platform)/house/[house].tsx";
+import * as $_platform_profile from "./routes/(platform)/profile.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
@@ -19,6 +20,7 @@ import * as $register from "./routes/register.tsx";
 import * as $IslaCharacter from "./islands/IslaCharacter.tsx";
 import * as $IslaFavoritesCharacters from "./islands/IslaFavoritesCharacters.tsx";
 import * as $IslaLogin from "./islands/IslaLogin.tsx";
+import * as $IslaProfile from "./islands/IslaProfile.tsx";
 import * as $islaRegister from "./islands/islaRegister.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -32,6 +34,7 @@ const manifest = {
     "./routes/(platform)/characters.tsx": $_platform_characters,
     "./routes/(platform)/favorites.tsx": $_platform_favorites,
     "./routes/(platform)/house/[house].tsx": $_platform_house_house_,
+    "./routes/(platform)/profile.tsx": $_platform_profile,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/_layout.tsx": $_layout,
@@ -43,6 +46,7 @@ const manifest = {
     "./islands/IslaCharacter.tsx": $IslaCharacter,
     "./islands/IslaFavoritesCharacters.tsx": $IslaFavoritesCharacters,
     "./islands/IslaLogin.tsx": $IslaLogin,
+    "./islands/IslaProfile.tsx": $IslaProfile,
     "./islands/islaRegister.tsx": $islaRegister,
   },
   baseUrl: import.meta.url,
