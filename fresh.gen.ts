@@ -8,6 +8,7 @@ import * as $_apiBD_nuevofavorito from "./routes/(apiBD)/nuevofavorito.ts";
 import * as $_apiBD_quitarfavorito from "./routes/(apiBD)/quitarfavorito.ts";
 import * as $_platform_middleware from "./routes/(platform)/_middleware.ts";
 import * as $_platform_characters from "./routes/(platform)/characters.tsx";
+import * as $_platform_favorites from "./routes/(platform)/favorites.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_layout from "./routes/_layout.tsx";
@@ -15,6 +16,7 @@ import * as $index from "./routes/index.tsx";
 import * as $login from "./routes/login.tsx";
 import * as $register from "./routes/register.tsx";
 import * as $IslaCharacter from "./islands/IslaCharacter.tsx";
+import * as $IslaFavoritesCharacters from "./islands/IslaFavoritesCharacters.tsx";
 import * as $IslaLogin from "./islands/IslaLogin.tsx";
 import * as $islaRegister from "./islands/islaRegister.tsx";
 import type { Manifest } from "$fresh/server.ts";
@@ -27,6 +29,7 @@ const manifest = {
     "./routes/(apiBD)/quitarfavorito.ts": $_apiBD_quitarfavorito,
     "./routes/(platform)/_middleware.ts": $_platform_middleware,
     "./routes/(platform)/characters.tsx": $_platform_characters,
+    "./routes/(platform)/favorites.tsx": $_platform_favorites,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/_layout.tsx": $_layout,
@@ -36,6 +39,7 @@ const manifest = {
   },
   islands: {
     "./islands/IslaCharacter.tsx": $IslaCharacter,
+    "./islands/IslaFavoritesCharacters.tsx": $IslaFavoritesCharacters,
     "./islands/IslaLogin.tsx": $IslaLogin,
     "./islands/islaRegister.tsx": $islaRegister,
   },
