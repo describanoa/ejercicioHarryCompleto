@@ -43,7 +43,7 @@ const IslaFavoritesCharacters: FunctionalComponent<Props> = (props) => {
           <div class="character" key={c.id}>
             <img src={c.image} alt={c.name} />
             <h3>{c.name}</h3>
-            <p>House: {c.house}</p>
+            <p>House: <a href={`/house/${c.house}`}>{c.house}</a></p>
             <button type="button" onClick={() => quitarFavorito(c)}>
                 ❌ Quitar de favoritos
             </button>

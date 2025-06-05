@@ -63,7 +63,7 @@ const IslaCharacter: FunctionalComponent<Props> = (props) => {
           <div class="character" key={c.id}>
             <img src={c.image} alt={c.name} />
             <h3>{c.name}</h3>
-            <p>House: {c.house}</p>
+            <p>House: <a href={`/house/${c.house}`}>{c.house}</a></p>
             {!c.favorite
               ? (
                 <button type="button" onClick={() => añadirFavorito(c)}>
