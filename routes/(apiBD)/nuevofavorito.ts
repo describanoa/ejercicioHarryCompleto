@@ -17,7 +17,7 @@ export async function handler(
   if(!modifiedCount) {
     const { insertedId } = await collectionFavoritos.insertOne({ 
     username: body.username,
-    id: body.id,
+    id: [body.id],
    });
    if(!insertedId) {
      return new Response("No se ha podido añadir el favorito", { status: 401 });

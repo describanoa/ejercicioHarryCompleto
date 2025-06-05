@@ -15,7 +15,7 @@ const IslaProfile: FunctionalComponent<Props> = (props) => {
     }
 
     return (
-        <div>
+        <div class="profile">
             <p>Username: <span>{props.data.username}</span></p>
             <p>Name: <span>{props.data.name}</span></p>
             <p>Email: <span>{props.data.email}</span></p>

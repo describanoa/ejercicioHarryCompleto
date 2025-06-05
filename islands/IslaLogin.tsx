@@ -39,7 +39,7 @@ const IslaLogin: FunctionalComponent = () => {
     }
 
     return (
-        <div>
+        <div class="login">
             <form>
                 <label>Username: </label>
                 <input type="text" placeholder="Username..." value={usernameSignal} onInput={(e) => usernameSignal.value = e.currentTarget.value} required />

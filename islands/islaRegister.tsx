@@ -45,7 +45,7 @@ const IslaRegister: FunctionalComponent = () => {
   };
 
   return (
-    <div>
+    <div class="register">
       <form>
         <label>Name: </label>
         <input
