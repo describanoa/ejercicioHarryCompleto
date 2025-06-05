@@ -5,6 +5,7 @@
 import * as $_apiBD_comprobarlogin from "./routes/(apiBD)/comprobarlogin.ts";
 import * as $_apiBD_comprobarregistro from "./routes/(apiBD)/comprobarregistro.ts";
 import * as $_apiBD_nuevofavorito from "./routes/(apiBD)/nuevofavorito.ts";
+import * as $_apiBD_quitarfavorito from "./routes/(apiBD)/quitarfavorito.ts";
 import * as $_platform_middleware from "./routes/(platform)/_middleware.ts";
 import * as $_platform_characters from "./routes/(platform)/characters.tsx";
 import * as $_404 from "./routes/_404.tsx";
@@ -23,6 +24,7 @@ const manifest = {
     "./routes/(apiBD)/comprobarlogin.ts": $_apiBD_comprobarlogin,
     "./routes/(apiBD)/comprobarregistro.ts": $_apiBD_comprobarregistro,
     "./routes/(apiBD)/nuevofavorito.ts": $_apiBD_nuevofavorito,
+    "./routes/(apiBD)/quitarfavorito.ts": $_apiBD_quitarfavorito,
     "./routes/(platform)/_middleware.ts": $_platform_middleware,
     "./routes/(platform)/characters.tsx": $_platform_characters,
     "./routes/_404.tsx": $_404,
