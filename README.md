@@ -1,3 +1,5 @@
+**Deno Deploy:** `short-badger-49.deno.dev`
+
 **Examen Práctico – Harry Potter Favorites App (versión breve)**
 
 Crea una aplicación web con Deno Fresh que implemente las siguientes funcionalidades:
