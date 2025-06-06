@@ -11,7 +11,7 @@ const IslaProfile: FunctionalComponent<Props> = (props) => {
     const funcionCerrarSesion = (e: Event) => {
         e.preventDefault();
         document.cookie = `username=${props.data.username}; Expires=Thu, 05 Jun 2025 00:00:00 UTC; path=/`;
-        globalThis.location.href = "/";
+        globalThis.location.href = "/login";
     }
 
     return (
