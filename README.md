@@ -1,3 +1,5 @@
+**Deno Deploy:** `short-badger-49.deno.dev`
+
 **Examen Práctico – Harry Potter Favorites App (versión breve)**
 
 Crea una aplicación web con Deno Fresh que implemente las siguientes funcionalidades:
@@ -37,13 +39,7 @@ Crea una aplicación web con Deno Fresh que implemente las siguientes funcionali
      * Foto (imagen), nombre y casa de cada personaje.
      * Un botón “⭐ Favorito”/“❌ Quitar” en cada tarjeta.
    * Al hacer clic en “Favorito” o “Quitar”, se realiza un `POST` vía Axios a un endpoint interno:
-
-     ```js
-     POST /api/fav/:userId/character/:hpId
-     ```
-
-     donde `hpId` es el identificador del personaje (puede usarse el nombre o un campo \_id asimilado).
-   * Ese endpoint alterna (crea o borra) la entrada correspondiente en una colección MongoDB `favorites` (campos: `userId`, `type="character"`, `itemId=hpId`).
+   * Ese endpoint alterna (crea o borra) la entrada correspondiente en una colección MongoDB `favorites`.
 
 2. **Ruta `/favorites`**
 
